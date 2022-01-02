@@ -1,0 +1,22 @@
+C:\Users\avalo\AppData\Local\Temporary Projects\Agencia\bin\Debug\Agencia.exe
+C:\Users\avalo\AppData\Local\Temporary Projects\Agencia\bin\Debug\Agencia.pdb
+C:\Users\avalo\AppData\Local\Temporary Projects\Agencia\obj\x86\Debug\Agencia.frmlogin.resources
+C:\Users\avalo\AppData\Local\Temporary Projects\Agencia\obj\x86\Debug\Agencia.Properties.Resources.resources
+C:\Users\avalo\AppData\Local\Temporary Projects\Agencia\obj\x86\Debug\Agencia.csproj.GenerateResource.Cache
+C:\Users\avalo\AppData\Local\Temporary Projects\Agencia\obj\x86\Debug\Agencia.exe
+C:\Users\avalo\AppData\Local\Temporary Projects\Agencia\obj\x86\Debug\Agencia.pdb
+C:\Users\avalo\AppData\Local\Temporary Projects\Agencia\obj\x86\Debug\Agencia.csproj.ResolveComReference.cache
+C:\Users\avalo\AppData\Local\Temporary Projects\Agencia\obj\x86\Debug\Agencia.frmprincipal.resources
+C:\Users\avalo\Desktop\Agencia\Agencia\Agencia\obj\x86\Debug\Agencia.csproj.ResolveComReference.cache
+C:\Users\avalo\Desktop\Agencia\Agencia\Agencia\obj\x86\Debug\Agencia.exe
+C:\Users\avalo\Desktop\Agencia\Agencia\Agencia\obj\x86\Debug\Agencia.frmlogin.resources
+C:\Users\avalo\Desktop\Agencia\Agencia\Agencia\obj\x86\Debug\Agencia.frmprincipal.resources
+C:\Users\avalo\Desktop\Agencia\Agencia\Agencia\obj\x86\Debug\Agencia.Properties.Resources.resources
+C:\Users\avalo\Desktop\Agencia\Agencia\Agencia\obj\x86\Debug\Agencia.csproj.GenerateResource.Cache
+C:\Users\avalo\Desktop\Agencia\Agencia\Agencia\bin\Debug\Agencia.exe
+C:\Users\avalo\Desktop\Agencia\Agencia\Agencia\bin\Debug\Agencia.pdb
+C:\Users\avalo\Desktop\Agencia\Agencia\Agencia\obj\x86\Debug\Agencia.pdb
+C:\Users\avalo\Desktop\Agencia\Agencia\Agencia\obj\x86\Debug\Agencia.frmregistrosautos.resources
+C:\Users\avalo\Desktop\Agencia\Agencia\Agencia\obj\x86\Debug\Agencia.frmconsultar.resources
+C:\Users\avalo\Desktop\Agencia\Agencia\Agencia\obj\x86\Debug\Agencia.frminsertarclientes.resources
+C:\Users\avalo\Desktop\Agencia\Agencia\Agencia\obj\x86\Debug\Agencia.frmcunsultarclientes.resources

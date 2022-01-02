@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5704CF9B-55B4-401B-9ECF-14CBB60212A3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Agencia</RootNamespace>
+    <AssemblyName>Agencia</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmconsultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmconsultar.Designer.cs">
+      <DependentUpon>frmconsultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmcunsultarclientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcunsultarclientes.Designer.cs">
+      <DependentUpon>frmcunsultarclientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frminsertarclientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frminsertarclientes.Designer.cs">
+      <DependentUpon>frminsertarclientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmprincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmprincipal.Designer.cs">
+      <DependentUpon>frmprincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmregistrosautos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmregistrosautos.Designer.cs">
+      <DependentUpon>frmregistrosautos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmconsultar.resx">
+      <DependentUpon>frmconsultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcunsultarclientes.resx">
+      <DependentUpon>frmcunsultarclientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frminsertarclientes.resx">
+      <DependentUpon>frminsertarclientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmprincipal.resx">
+      <DependentUpon>frmprincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmregistrosautos.resx">
+      <DependentUpon>frmregistrosautos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuaria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{00000205-0000-0010-8000-00AA006D2EA4}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basedatos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descargar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lupa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudrefresh_icon-icons.com_54403.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\58872032-blanco-icono-actualizar-en-el-botón-azul-aislado-en-blanco.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agencia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kia01.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
